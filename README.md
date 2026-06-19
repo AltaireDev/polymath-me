@@ -4,4 +4,4 @@ Built with Next.js, TypeScript, and Tailwind. Content in `content/`. Auto-deploy
 
 🔗 [altairedev.vercel.app](https://altairedev.vercel.app) | Literally Me | Polymath
 
-Beyond imagination.
+Beyond imagination 🔥🔥.
