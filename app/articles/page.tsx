@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { allArticles, Article } from 'contentlayer/generated'
 import { compareDesc } from 'date-fns'
-import { FiTag, FiClock, FiChevronDown } from 'react-icons/fi'
+import { FiTag, } from 'react-icons/fi'
 
 export default function Articles() {
   const [selectedCategory, setSelectedCategory] = useState('All')

@@ -3,7 +3,6 @@
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { allProjects } from 'contentlayer/generated'
-import Link from 'next/link'
 import { FiGithub, FiExternalLink, FiCode, FiStar, FiGrid, FiList } from 'react-icons/fi'
 
 export default function Projects() {

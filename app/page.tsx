@@ -2,11 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { 
-  FiCode, FiCoffee, FiBook, FiMusic, FiAward, FiBriefcase, 
-  FiGlobe, FiHeart, FiTrendingUp, FiZap, FiUsers,
-  FiGithub, FiTwitter, FiLinkedin, FiSend,
-  FiActivity,
-  FiCpu
+  FiCode, FiCoffee, FiBook, FiBriefcase, 
+  FiHeart, FiTrendingUp, FiZap, FiUsers,
 } from 'react-icons/fi'
 import { FaBrain, FaDiscord } from 'react-icons/fa'
 import Link from 'next/link'
