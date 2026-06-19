@@ -19,6 +19,7 @@
       }
     ],
     "paths": {
+      "contentlayer/generated": ["./.contentlayer/generated"],
       "@/*": ["./*"]
     }
   },
@@ -28,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    ".contentlayer/generated"
   ],
   "exclude": ["node_modules"]
 }

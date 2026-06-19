@@ -1,0 +1,1504 @@
+{
+    "ideas": [
+        {
+            "id": 1,
+            "title": "Expense Tracker API",
+            "description": "Build a RESTful API for tracking personal expenses with categories, budgets, and spending reports.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Node.js", "Express", "MongoDB", "JWT", "Jest"],
+            "challenge": "Add CSV import/export for transactions",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 2,
+            "title": "Weather Dashboard",
+            "description": "Create a weather dashboard that displays current conditions and 5-day forecast using a public weather API.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["React", "Axios", "CSS3", "OpenWeatherMap API"],
+            "challenge": "Add geolocation and dark mode",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 3,
+            "title": "Task Management CLI",
+            "description": "Build a command-line tool for managing tasks with priorities, due dates, and status tracking.",
+            "difficulty": "Beginner",
+            "field": "Command Line Tools",
+            "tech": ["Python", "Click", "SQLite", "Rich"],
+            "challenge": "Add task tagging and filtering",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 4,
+            "title": "E-commerce Product Catalog",
+            "description": "Develop a product catalog with search, filtering, sorting, and pagination features.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
+            "challenge": "Implement product reviews and ratings",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 5,
+            "title": "Personal Blog Platform",
+            "description": "Create a blogging platform with markdown support, tags, and user authentication.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Django", "Python", "SQLite", "Bootstrap", "Markdown"],
+            "challenge": "Add comment system and RSS feed",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 6,
+            "title": "URL Shortener",
+            "description": "Build a URL shortening service with custom aliases and click tracking.",
+            "difficulty": "Beginner",
+            "field": "Backend Development",
+            "tech": ["FastAPI", "Python", "Redis", "SQLAlchemy", "PostgreSQL"],
+            "challenge": "Add QR code generation",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 7,
+            "title": "Flashcard Study App",
+            "description": "Create a flashcard application with spaced repetition for effective learning.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["React Native", "Expo", "SQLite", "Redux Toolkit"],
+            "challenge": "Add image support and quiz mode",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 8,
+            "title": "Stock Portfolio Tracker",
+            "description": "Build a tool to track stock investments with real-time prices and portfolio performance.",
+            "difficulty": "Intermediate",
+            "field": "FinTech",
+            "tech": ["Vue.js", "Pinia", "Express", "MongoDB", "Alpha Vantage API"],
+            "challenge": "Add dividend tracking and alerts",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 9,
+            "title": "Recipe Finder",
+            "description": "Develop an app to search and save recipes with ingredient-based filtering.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Spoonacular API", "LocalStorage"],
+            "challenge": "Add meal planning feature",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 10,
+            "title": "Fitness Workout Logger",
+            "description": "Create a workout tracking app with exercise library, sets, reps, and progress charts.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "Firebase", "Provider", "Charts"],
+            "challenge": "Add workout templates and timers",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 11,
+            "title": "Real-time Chat Application",
+            "description": "Build a chat app with rooms, private messaging, and read receipts.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Socket.io", "React", "Node.js", "Redis", "PostgreSQL"],
+            "challenge": "Add file sharing and typing indicators",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 12,
+            "title": "Movie Discovery App",
+            "description": "Create an app to discover movies with search, filters, and detailed information.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["React", "TMDB API", "Styled Components", "React Router"],
+            "challenge": "Add watchlist and ratings",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 13,
+            "title": "Todoist Clone",
+            "description": "Build a task management app with projects, labels, priorities, and due dates.",
+            "difficulty": "Intermediate",
+            "field": "Frontend Development",
+            "tech": ["Angular", "TypeScript", "RxJS", "Firebase"],
+            "challenge": "Add drag-and-drop and subtasks",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 14,
+            "title": "Password Manager",
+            "description": "Create a secure password manager with encryption and master password.",
+            "difficulty": "Intermediate",
+            "field": "Cybersecurity",
+            "tech": ["Python", "Cryptography", "SQLite", "Tkinter"],
+            "challenge": "Add password generator and auto-fill",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 15,
+            "title": "E-learning Platform",
+            "description": "Develop a platform for online courses with video lessons and quizzes.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Laravel", "PHP", "MySQL", "Vue.js", "Tailwind"],
+            "challenge": "Add progress tracking and certificates",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 16,
+            "title": "Music Player App",
+            "description": "Build a music player with playlists, equalizer, and lyrics display.",
+            "difficulty": "Intermediate",
+            "field": "Desktop Development",
+            "tech": ["Electron", "React", "Howler.js", "Node.js"],
+            "challenge": "Add podcast support and sleep timer",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 17,
+            "title": "Habit Tracker",
+            "description": "Create a habit tracking app with streaks, reminders, and statistics.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["React Native", "AsyncStorage", "React Navigation", "Victory Charts"],
+            "challenge": "Add social sharing and challenges",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 18,
+            "title": "Job Board Scraper",
+            "description": "Build a web scraper that aggregates job listings from multiple boards.",
+            "difficulty": "Intermediate",
+            "field": "Data Engineering",
+            "tech": ["Python", "Scrapy", "BeautifulSoup", "SQLite", "Schedule"],
+            "challenge": "Add email alerts for new jobs",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 19,
+            "title": "Library Management System",
+            "description": "Create a system to manage books, members, and borrowing records.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Java", "Spring Boot", "Hibernate", "PostgreSQL", "JSP"],
+            "challenge": "Add fine calculation and book reservations",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 20,
+            "title": "Weather Alert Telegram Bot",
+            "description": "Build a Telegram bot that sends weather alerts and forecasts.",
+            "difficulty": "Beginner",
+            "field": "Bot Development",
+            "tech": ["Python", "python-telegram-bot", "OpenWeatherMap API", "SQLite"],
+            "challenge": "Add location-based alerts",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 21,
+            "title": "Photo Gallery App",
+            "description": "Develop a photo gallery with uploads, albums, and image optimization.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "Multer", "Sharp", "MongoDB"],
+            "challenge": "Add face detection and tags",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 22,
+            "title": "Pomodoro Timer",
+            "description": "Create a productivity timer with sessions, breaks, and task tracking.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Web Audio API"],
+            "challenge": "Add statistics and custom intervals",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 23,
+            "title": "CRM System",
+            "description": "Build a customer relationship management system for small businesses.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Ruby on Rails", "PostgreSQL", "Tailwind", "Stimulus.js"],
+            "challenge": "Add email integration and reports",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 24,
+            "title": "Space Invaders Game",
+            "description": "Recreate the classic Space Invaders arcade game.",
+            "difficulty": "Intermediate",
+            "field": "Game Development",
+            "tech": ["PyGame", "Python", "OOP"],
+            "challenge": "Add power-ups and boss levels",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 25,
+            "title": "Bookmark Manager",
+            "description": "Create a bookmark management tool with tags, search, and organization.",
+            "difficulty": "Beginner",
+            "field": "Backend Development",
+            "tech": ["Go", "Gorilla Mux", "MongoDB", "JWT"],
+            "challenge": "Add import from browsers and sharing",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 26,
+            "title": "Anime Tracker",
+            "description": "Build an app to track anime watched, with ratings and watchlist.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Svelte", "Node.js", "PostgreSQL", "Jikan API"],
+            "challenge": "Add recommendation engine",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 27,
+            "title": "Polling App",
+            "description": "Develop a real-time polling application with live results.",
+            "difficulty": "Beginner",
+            "field": "Full Stack",
+            "tech": ["Flask", "Python", "WebSockets", "Redis", "SQLite"],
+            "challenge": "Add multiple question types",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 28,
+            "title": "Expense Splitter",
+            "description": "Create a tool to split expenses among friends and track balances.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Node.js", "Express", "MongoDB", "JWT", "Jest"],
+            "challenge": "Add settlement feature and charts",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 29,
+            "title": "News Aggregator",
+            "description": "Build a news aggregator that fetches from multiple sources and categorizes.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Python", "Django", "Celery", "Redis", "BeautifulSoup"],
+            "challenge": "Add sentiment analysis",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 30,
+            "title": "Social Media Dashboard",
+            "description": "Create a dashboard to manage multiple social media accounts.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "OAuth 2.0", "MongoDB", "Tailwind"],
+            "challenge": "Add scheduling and analytics",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 31,
+            "title": "Typing Speed Tester",
+            "description": "Build a typing speed test with WPM, accuracy, and progress tracking.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Chart.js"],
+            "challenge": "Add multiplayer mode",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 32,
+            "title": "Jira Lite",
+            "description": "Create a simplified project management tool with issues and sprints.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["TypeScript", "React", "Node.js", "PostgreSQL", "Tailwind"],
+            "challenge": "Add kanban board and time tracking",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 33,
+            "title": "Weather Station Simulator",
+            "description": "Build an IoT simulation that reads and displays sensor data.",
+            "difficulty": "Intermediate",
+            "field": "IoT",
+            "tech": ["Arduino", "C++", "MQTT", "Node.js", "React"],
+            "challenge": "Add data visualization and alerts",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 34,
+            "title": "Crypto Price Tracker",
+            "description": "Create a cryptocurrency price tracking app with alerts and portfolio.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["Vue.js", "CoinGecko API", "Chart.js", "LocalStorage"],
+            "challenge": "Add price alerts via email",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 35,
+            "title": "Digital Diary",
+            "description": "Build a secure digital diary with mood tracking and search.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "SQLite", "Provider", "Biometric"],
+            "challenge": "Add attachment support",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 36,
+            "title": "E-commerce Admin Panel",
+            "description": "Develop an admin panel for managing products, orders, and customers.",
+            "difficulty": "Intermediate",
+            "field": "Frontend Development",
+            "tech": ["React", "Ant Design", "Redux Toolkit", "Tailwind"],
+            "challenge": "Add analytics dashboard",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 37,
+            "title": "Encrypted File Sharing",
+            "description": "Create a secure file sharing system with end-to-end encryption.",
+            "difficulty": "Intermediate",
+            "field": "Cybersecurity",
+            "tech": ["Python", "Flask", "Cryptography", "SQLite"],
+            "challenge": "Add password protection and expiry",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 38,
+            "title": "Parking Spot Finder",
+            "description": "Build an app to find and book parking spots in real-time.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["React Native", "Google Maps API", "Firebase", "Expo"],
+            "challenge": "Add payment integration",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 39,
+            "title": "Portfolio Website",
+            "description": "Create a personal portfolio website with projects and blog.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["Next.js", "Tailwind CSS", "Framer Motion", "MDX"],
+            "challenge": "Add contact form and analytics",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 40,
+            "title": "RSS Feed Reader",
+            "description": "Build an RSS feed reader with subscriptions and article management.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "MongoDB", "EJS", "RSS Parser"],
+            "challenge": "Add bookmarking and mobile view",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 41,
+            "title": "Basketball Score Tracker",
+            "description": "Create an app to track basketball scores, stats, and player performance.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["HTML", "CSS", "JavaScript", "Chart.js"],
+            "challenge": "Add game history and comparisons",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 42,
+            "title": "Language Learning App",
+            "description": "Build a language learning app with vocabulary and flashcards.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["React Native", "Redux", "SQLite", "Expo"],
+            "challenge": "Add voice recognition and progress",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 43,
+            "title": "Community Forum",
+            "description": "Develop a forum platform with categories, posts, and user profiles.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["PHP", "Laravel", "MySQL", "Bootstrap", "Livewire"],
+            "challenge": "Add reputation system",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 44,
+            "title": "Cocktail Recipe App",
+            "description": "Create an app for discovering cocktail recipes with search and filtering.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["React", "TheCocktailDB API", "Tailwind", "React Router"],
+            "challenge": "Add favorites and random suggestions",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 45,
+            "title": "Server Monitoring Tool",
+            "description": "Build a server monitoring tool with uptime and performance metrics.",
+            "difficulty": "Intermediate",
+            "field": "DevOps",
+            "tech": ["Python", "Flask", "Prometheus", "Grafana", "psutil"],
+            "challenge": "Add alerting and logs",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 46,
+            "title": "Furniture AR Preview",
+            "description": "Create an AR app to preview furniture in your room.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["Swift", "ARKit", "SceneKit", "iOS"],
+            "challenge": "Add scale and rotation controls",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 47,
+            "title": "GitHub Stats Dashboard",
+            "description": "Build a dashboard to visualize GitHub repository statistics.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "GitHub API", "Chart.js", "CSS3"],
+            "challenge": "Add multiple repo comparison",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 48,
+            "title": "Ticket Booking System",
+            "description": "Create a ticket booking system for events and shows.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Java", "Spring Boot", "JPA", "PostgreSQL", "React"],
+            "challenge": "Add seat selection and payment",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 49,
+            "title": "Periodic Table App",
+            "description": "Build an interactive periodic table with element details.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Element API"],
+            "challenge": "Add electron configuration and quiz",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 50,
+            "title": "Invoicing System",
+            "description": "Develop an invoicing system with clients, items, and PDF generation.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "PostgreSQL", "PDFKit", "React"],
+            "challenge": "Add payment tracking and reminders",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 51,
+            "title": "Morse Code Translator",
+            "description": "Create a tool to translate text to Morse code and vice versa.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Web Audio API"],
+            "challenge": "Add sound playback and flash",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 52,
+            "title": "Sports Team Manager",
+            "description": "Build a management system for sports teams with players and matches.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Python", "Django", "SQLite", "Bootstrap", "Charts"],
+            "challenge": "Add statistics and league tables",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 53,
+            "title": "Color Palette Generator",
+            "description": "Create a color palette generator with harmony rules and export.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Canvas API"],
+            "challenge": "Add accessibility checking",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 54,
+            "title": "Flash Sale System",
+            "description": "Build a flash sale system with countdown timers and inventory management.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Node.js", "Express", "Redis", "MongoDB", "Bull"],
+            "challenge": "Add queuing and order processing",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 55,
+            "title": "Smart Home Dashboard",
+            "description": "Create a dashboard to control smart home devices.",
+            "difficulty": "Intermediate",
+            "field": "IoT",
+            "tech": ["React", "MQTT", "Node.js", "WebSocket", "Tailwind"],
+            "challenge": "Add automation rules",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 56,
+            "title": "Flashcards CLI",
+            "description": "Build a CLI flashcard app with spaced repetition and progress tracking.",
+            "difficulty": "Beginner",
+            "field": "Command Line Tools",
+            "tech": ["Rust", "Clap", "Serde", "SQLite"],
+            "challenge": "Add CSV import/export",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 57,
+            "title": "Resume Builder",
+            "description": "Create a resume builder tool with templates and PDF export.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "MongoDB", "PDF-lib", "Tailwind"],
+            "challenge": "Add AI suggestions",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 58,
+            "title": "Meditation Timer",
+            "description": "Build a meditation app with timers and ambient sounds.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "Provider", "SQLite", "AudioPlayer"],
+            "challenge": "Add guided sessions and stats",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 59,
+            "title": "Code Snippet Manager",
+            "description": "Create a tool to store, organize, and share code snippets.",
+            "difficulty": "Intermediate",
+            "field": "Frontend Development",
+            "tech": ["React", "TypeScript", "LocalStorage", "Prism.js", "Tailwind"],
+            "challenge": "Add syntax highlighting and search",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 60,
+            "title": "Cloud Storage Explorer",
+            "description": "Build a tool to explore and manage cloud storage services.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "AWS S3 SDK", "React", "Multer"],
+            "challenge": "Add multiple cloud providers",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 61,
+            "title": "Sudoku Solver",
+            "description": "Create a Sudoku solver and generator with difficulty levels.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Canvas"],
+            "challenge": "Add timer and hints",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 62,
+            "title": "Food Delivery Backend",
+            "description": "Build a backend for food delivery with restaurants, orders, and drivers.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Go", "PostgreSQL", "Redis", "JWT", "Docker"],
+            "challenge": "Add real-time tracking",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 63,
+            "title": "Memory Card Game",
+            "description": "Create a memory card matching game with difficulty levels.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Animation API"],
+            "challenge": "Add multiplayer mode",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 64,
+            "title": "House Rental Platform",
+            "description": "Develop a platform for house rentals with search and booking.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Ruby on Rails", "PostgreSQL", "Stimulus.js", "Tailwind"],
+            "challenge": "Add calendar and reviews",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 65,
+            "title": "QR Code Generator",
+            "description": "Build a QR code generator and scanner with analytics.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "qrcode.js", "HTML5", "CSS3"],
+            "challenge": "Add customization and download",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 66,
+            "title": "Job Application Tracker",
+            "description": "Create a tool to track job applications and interview processes.",
+            "difficulty": "Beginner",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "MongoDB", "JWT", "Bootstrap"],
+            "challenge": "Add document management",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 67,
+            "title": "Time Zone Converter",
+            "description": "Build a tool to convert time between different time zones.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Intl API"],
+            "challenge": "Add meeting scheduler",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 68,
+            "title": "Pet Adoption Platform",
+            "description": "Create a platform connecting pet adopters with shelters.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Python", "Django", "PostgreSQL", "Bootstrap", "Map API"],
+            "challenge": "Add messaging and favorites",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 69,
+            "title": "Barcode Scanner App",
+            "description": "Build a barcode scanning app to lookup product information.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["React Native", "Expo", "Camera API", "Firebase"],
+            "challenge": "Add shopping list and price compare",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 70,
+            "title": "Wiki Clone",
+            "description": "Create a Wikipedia-style knowledge base with editing and versioning.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["JavaScript", "Node.js", "Express", "MongoDB", "Markdown"],
+            "challenge": "Add search and categories",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 71,
+            "title": "Budget Planner",
+            "description": "Build a budget planner with income, expenses, and savings goals.",
+            "difficulty": "Intermediate",
+            "field": "Frontend Development",
+            "tech": ["Vue.js", "Pinia", "Chart.js", "LocalStorage"],
+            "challenge": "Add monthly reports and alerts",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 72,
+            "title": "Web Scraper API",
+            "description": "Create an API that scrapes data from websites on demand.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Python", "FastAPI", "Scrapy", "Redis", "Docker"],
+            "challenge": "Add caching and scheduling",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 73,
+            "title": "Snake Game",
+            "description": "Recreate the classic Snake game with modern features.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Canvas API"],
+            "challenge": "Add high scores and levels",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 74,
+            "title": "Subscription Tracker",
+            "description": "Build a tool to track subscriptions and notify of renewals.",
+            "difficulty": "Beginner",
+            "field": "Backend Development",
+            "tech": ["Node.js", "Express", "MongoDB", "Node-cron", "Nodemailer"],
+            "challenge": "Add cost analytics",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 75,
+            "title": "Art Gallery Platform",
+            "description": "Create a platform for artists to showcase and sell their work.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "PostgreSQL", "AWS S3", "Stripe"],
+            "challenge": "Add virtual gallery viewing",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 76,
+            "title": "Countdown App",
+            "description": "Build a countdown app for events with notifications.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "SQLite", "Provider", "Local Notifications"],
+            "challenge": "Add event categories and sharing",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 77,
+            "title": "Trending Repositories",
+            "description": "Create a tool to discover trending GitHub repositories.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "GitHub API", "HTML5", "CSS3"],
+            "challenge": "Add filters and bookmarks",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 78,
+            "title": "Quiz Game",
+            "description": "Build a quiz game with categories and multiplayer support.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "Socket.io", "MongoDB", "Tailwind"],
+            "challenge": "Add timed rounds and leaderboard",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 79,
+            "title": "Employee Directory",
+            "description": "Create a corporate employee directory with search and profiles.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["Angular", "TypeScript", "RxJS", "Bootstrap"],
+            "challenge": "Add admin panel and export",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 80,
+            "title": "Route Optimizer",
+            "description": "Build a tool to optimize delivery routes for multiple stops.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Python", "Google Maps API", "SQLite", "FastAPI"],
+            "challenge": "Add real-time traffic updates",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 81,
+            "title": "Mood Journal",
+            "description": "Create a journal for tracking mood with entries and analytics.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["SwiftUI", "CoreData", "Swift", "Charts"],
+            "challenge": "Add photo attachments",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 82,
+            "title": "Email Newsletter System",
+            "description": "Build a newsletter management system with templates and analytics.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Node.js", "Express", "PostgreSQL", "SendGrid", "EJS"],
+            "challenge": "Add A/B testing",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 83,
+            "title": "Drawing Board",
+            "description": "Create a collaborative drawing board with real-time features.",
+            "difficulty": "Intermediate",
+            "field": "Frontend Development",
+            "tech": ["React", "Canvas API", "Socket.io", "Node.js"],
+            "challenge": "Add shape tools and layers",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 84,
+            "title": "Music Playlist Generator",
+            "description": "Build a tool to generate playlists based on mood and genres.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Python", "Spotify API", "FastAPI", "Redis"],
+            "challenge": "Add user authentication and saves",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 85,
+            "title": "Housing Society Management",
+            "description": "Create a management system for housing societies and residents.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "PostgreSQL", "Material-UI"],
+            "challenge": "Add payment and complaint modules",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 86,
+            "title": "ASCII Art Generator",
+            "description": "Build a tool to convert images to ASCII art.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Canvas API"],
+            "challenge": "Add color support and export",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 87,
+            "title": "Crowdfunding Platform",
+            "description": "Develop a crowdfunding platform with campaigns and pledges.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Django", "Python", "PostgreSQL", "Bootstrap", "Stripe"],
+            "challenge": "Add funding progress and updates",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 88,
+            "title": "Speed Reader",
+            "description": "Create an app to increase reading speed with RSVP technique.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Web Storage"],
+            "challenge": "Add import from files",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 89,
+            "title": "Inventory Management System",
+            "description": "Build a system to manage inventory with stock levels and alerts.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Java", "Spring Boot", "MySQL", "React", "Tailwind"],
+            "challenge": "Add barcode scanning",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 90,
+            "title": "Trip Planner",
+            "description": "Create a trip planner with itinerary, budget, and maps.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "Google Maps API", "MongoDB", "EJS"],
+            "challenge": "Add weather integration",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 91,
+            "title": "Chess Clock",
+            "description": "Build a chess clock app with multiple time controls.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "Provider", "Audio"],
+            "challenge": "Add game history and stats",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 92,
+            "title": "Learning Management System",
+            "description": "Create an LMS for managing courses, students, and grades.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["PHP", "Laravel", "MySQL", "Tailwind", "Livewire"],
+            "challenge": "Add quiz and assignment features",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 93,
+            "title": "Currency Converter",
+            "description": "Build a currency converter with live exchange rates.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "ExchangeRate API", "HTML5", "CSS3"],
+            "challenge": "Add historical data charts",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 94,
+            "title": "Meeting Scheduler",
+            "description": "Create a meeting scheduler with calendar integration and invites.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "PostgreSQL", "Google Calendar API"],
+            "challenge": "Add timezone detection",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 95,
+            "title": "Tic-Tac-Toe AI",
+            "description": "Build a Tic-Tac-Toe game with an AI opponent.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Minimax Algorithm"],
+            "challenge": "Add difficulty levels",
+            "timeEstimate": "4-6 hours"
+        },
+        {
+            "id": 96,
+            "title": "Task Automation Script",
+            "description": "Create a script to automate repetitive file organization tasks.",
+            "difficulty": "Beginner",
+            "field": "Automation",
+            "tech": ["Python", "os", "shutil", "watchdog"],
+            "challenge": "Add configurable rules",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 97,
+            "title": "Voting System",
+            "description": "Build a secure voting system with voter authentication.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "JWT", "PostgreSQL", "Tailwind"],
+            "challenge": "Add real-time results",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 98,
+            "title": "Unit Converter",
+            "description": "Create a comprehensive unit converter for various measurements.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Bootstrap"],
+            "challenge": "Add custom unit creation",
+            "timeEstimate": "3-5 hours"
+        },
+        {
+            "id": 99,
+            "title": "Carpooling System",
+            "description": "Build a carpooling system with ride sharing and matching.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "MongoDB", "Map API", "Socket.io"],
+            "challenge": "Add ride scheduling and reviews",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 100,
+            "title": "SaaS Boilerplate",
+            "description": "Create a boilerplate for SaaS applications with billing and authentication.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Tailwind"],
+            "challenge": "Add team management and webhooks",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 101,
+            "title": "Air Quality Monitor",
+            "description": "Build a real-time air quality monitoring dashboard using public sensor data.",
+            "difficulty": "Intermediate",
+            "field": "Environmental Tech",
+            "tech": ["Python", "FastAPI", "React", "Chart.js", "OpenAQ API"],
+            "challenge": "Add health recommendations and alerts",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 102,
+            "title": "Podcast Manager",
+            "description": "Create a podcast management tool with RSS feeds, episodes, and playback.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "React", "MongoDB", "Audio API"],
+            "challenge": "Add download and offline playback",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 103,
+            "title": "Event Reminder Bot",
+            "description": "Build a Telegram/Discord bot that sends event reminders with countdowns.",
+            "difficulty": "Beginner",
+            "field": "Bot Development",
+            "tech": ["Python", "python-telegram-bot", "SQLite", "APScheduler"],
+            "challenge": "Add recurring event support",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 104,
+            "title": "NLP Sentiment Analyzer",
+            "description": "Create a tool that analyzes sentiment of text input or social media posts.",
+            "difficulty": "Intermediate",
+            "field": "Machine Learning",
+            "tech": ["Python", "NLTK", "TextBlob", "Flask", "React"],
+            "challenge": "Add multi-language support",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 105,
+            "title": "E-waste Locator",
+            "description": "Build an app to locate e-waste recycling centers near users.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["React Native", "Google Maps API", "Firebase", "Expo"],
+            "challenge": "Add educational content and rewards",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 106,
+            "title": "Habit Streak Calendar",
+            "description": "Create a visual calendar showing habit streaks with GitHub-style heatmap.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "React", "CSS3", "LocalStorage"],
+            "challenge": "Add multiple habit tracking",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 107,
+            "title": "Stock Alert System",
+            "description": "Build a system that sends SMS/email alerts when stocks hit target prices.",
+            "difficulty": "Intermediate",
+            "field": "FinTech",
+            "tech": ["Python", "yfinance", "Twilio", "PostgreSQL", "Celery"],
+            "challenge": "Add technical indicator alerts",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 108,
+            "title": "Book Reading Tracker",
+            "description": "Create an app to track books read, with reviews and reading goals.",
+            "difficulty": "Beginner",
+            "field": "Full Stack",
+            "tech": ["Django", "Python", "SQLite", "Bootstrap", "Goodreads API"],
+            "challenge": "Add reading challenge and leaderboards",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 109,
+            "title": "Sticky Notes App",
+            "description": "Build a sticky notes app with drag-and-drop and color coding.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["React", "Redux Toolkit", "Tailwind", "Drag-and-drop"],
+            "challenge": "Add sync across devices",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 110,
+            "title": "CSV Data Viewer",
+            "description": "Create a tool to upload, view, filter, and visualize CSV data.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "Papa Parse", "Chart.js", "HTML5", "CSS3"],
+            "challenge": "Add data export and transformations",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 111,
+            "title": "Smart Watering System",
+            "description": "Build an IoT system to monitor soil moisture and automate watering.",
+            "difficulty": "Intermediate",
+            "field": "IoT",
+            "tech": ["Arduino", "C++", "Node.js", "MQTT", "React"],
+            "challenge": "Add weather prediction integration",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 112,
+            "title": "Voice Memo Recorder",
+            "description": "Create a voice memo app with recording, transcription, and cloud backup.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["Swift", "AVFoundation", "Firebase", "Speech Framework"],
+            "challenge": "Add automatic tagging",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 113,
+            "title": "Daily Planner Calendar",
+            "description": "Build a daily planner with time-blocking and task scheduling.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "PostgreSQL", "FullCalendar", "Tailwind"],
+            "challenge": "Add drag-to-reschedule and reminders",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 114,
+            "title": "Recipe Nutrition Analyzer",
+            "description": "Create a tool that analyzes recipe nutritional values from ingredients.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Python", "Flask", "React", "Nutritionix API", "PostgreSQL"],
+            "challenge": "Add dietary restriction filtering",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 115,
+            "title": "Website Uptime Monitor",
+            "description": "Build a service that monitors website uptime and notifies on downtime.",
+            "difficulty": "Beginner",
+            "field": "DevOps",
+            "tech": ["Node.js", "Express", "axios", "MongoDB", "Nodemailer"],
+            "challenge": "Add response time tracking",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 116,
+            "title": "Mental Health Check-in",
+            "description": "Create a daily mental health check-in app with mood tracking and resources.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "SQLite", "Provider", "Charts", "Notifications"],
+            "challenge": "Add crisis resources and journaling",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 117,
+            "title": "File Organizer Desktop App",
+            "description": "Build a desktop app that automatically organizes files by type, date, or rules.",
+            "difficulty": "Intermediate",
+            "field": "Desktop Development",
+            "tech": ["Python", "PyQt", "watchdog", "os", "shutil"],
+            "challenge": "Add custom rule builder",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 118,
+            "title": "Water Tracking App",
+            "description": "Create an app to track daily water intake with reminders and goals.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["React Native", "AsyncStorage", "React Navigation", "Progress Chart"],
+            "challenge": "Add gamification and achievements",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 119,
+            "title": "Network Scanner",
+            "description": "Build a tool to scan local networks and discover connected devices.",
+            "difficulty": "Intermediate",
+            "field": "Cybersecurity",
+            "tech": ["Python", "Scapy", "Socket", "Flask", "React"],
+            "challenge": "Add device fingerprinting",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 120,
+            "title": "Skill Swap Platform",
+            "description": "Create a platform where users can exchange skills and services.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "MongoDB", "React", "Socket.io"],
+            "challenge": "Add skill matching algorithm",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 121,
+            "title": "Markdown Editor",
+            "description": "Build a real-time Markdown editor with live preview and export.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["React", "Marked.js", "Tailwind", "LocalStorage"],
+            "challenge": "Add GitHub-flavored markdown",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 122,
+            "title": "Plant Care Reminder",
+            "description": "Create an app that reminds users when to water and care for plants.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "SQLite", "Notifications", "Image Picker"],
+            "challenge": "Add plant database and growth tracking",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 123,
+            "title": "Passwordless Authentication",
+            "description": "Build a demo app using magic link/passwordless authentication.",
+            "difficulty": "Intermediate",
+            "field": "Cybersecurity",
+            "tech": ["Node.js", "Express", "Nodemailer", "JWT", "MongoDB"],
+            "challenge": "Add biometric fallback",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 124,
+            "title": "Carbon Footprint Calculator",
+            "description": "Create a tool to calculate personal carbon footprint from daily activities.",
+            "difficulty": "Intermediate",
+            "field": "Environmental Tech",
+            "tech": ["React", "Node.js", "PostgreSQL", "Chart.js", "Tailwind"],
+            "challenge": "Add offset suggestions",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 125,
+            "title": "GitHub Issue Manager",
+            "description": "Build a tool to manage GitHub issues with custom workflows.",
+            "difficulty": "Intermediate",
+            "field": "Developer Tools",
+            "tech": ["TypeScript", "React", "Octokit", "Tailwind", "LocalStorage"],
+            "challenge": "Add automation rules",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 126,
+            "title": "TV Show Tracker",
+            "description": "Create an app to track TV shows, episodes, and viewing progress.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["Vue.js", "TMDB API", "Pinia", "Tailwind"],
+            "challenge": "Add watchlist and recommendations",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 127,
+            "title": "Web Based SSH Client",
+            "description": "Build a simple web-based SSH client for remote server access.",
+            "difficulty": "Intermediate",
+            "field": "DevOps",
+            "tech": ["Node.js", "WebSocket", "xterm.js", "ssh2", "Express"],
+            "challenge": "Add session management",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 128,
+            "title": "Beer Recipe Builder",
+            "description": "Create a tool for homebrewers to build and share beer recipes.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "PostgreSQL", "Tailwind", "Brewery API"],
+            "challenge": "Add ingredient substitutions",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 129,
+            "title": "Digital Escape Room",
+            "description": "Build a digital escape room game with puzzles and clues.",
+            "difficulty": "Intermediate",
+            "field": "Game Development",
+            "tech": ["JavaScript", "HTML5", "CSS3", "Canvas", "Audio"],
+            "challenge": "Add timer and multiple rooms",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 130,
+            "title": "Weather-based Playlist",
+            "description": "Create a tool that suggests Spotify playlists based on weather.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "Spotify API", "OpenWeatherMap API"],
+            "challenge": "Add mood-based recommendations",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 131,
+            "title": "Backup Automation Tool",
+            "description": "Build a tool to automate backups to cloud storage services.",
+            "difficulty": "Intermediate",
+            "field": "DevOps",
+            "tech": ["Python", "boto3", "google-cloud-storage", "schedule", "SQLite"],
+            "challenge": "Add encryption and restore features",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 132,
+            "title": "Sports Prediction Game",
+            "description": "Create a game where users predict sports match outcomes.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "MongoDB", "Sports API", "JWT"],
+            "challenge": "Add scoring and leaderboard",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 133,
+            "title": "API Testing Tool",
+            "description": "Build a Postman-like tool for testing and exploring APIs.",
+            "difficulty": "Intermediate",
+            "field": "Developer Tools",
+            "tech": ["React", "TypeScript", "Axios", "Tailwind", "Monaco Editor"],
+            "challenge": "Add collections and environments",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 134,
+            "title": "Price Comparison Engine",
+            "description": "Create a tool that compares product prices across e-commerce sites.",
+            "difficulty": "Intermediate",
+            "field": "Backend Development",
+            "tech": ["Python", "Scrapy", "Django", "PostgreSQL", "Celery"],
+            "challenge": "Add price drop alerts",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 135,
+            "title": "Gratitude Journal",
+            "description": "Build a journal app for daily gratitude entries with photo support.",
+            "difficulty": "Beginner",
+            "field": "Mobile Development",
+            "tech": ["Flutter", "SQLite", "Provider", "Image Picker"],
+            "challenge": "Add quotes and reminders",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 136,
+            "title": "Webring Platform",
+            "description": "Create a modern webring platform for independent websites.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Node.js", "Express", "MongoDB", "EJS", "RSS"],
+            "challenge": "Add analytics and random browsing",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 137,
+            "title": "PDF Editor",
+            "description": "Build a web-based PDF editor with merge, split, and annotation features.",
+            "difficulty": "Intermediate",
+            "field": "Frontend Development",
+            "tech": ["React", "PDF-lib", "react-pdf", "Tailwind", "Drag-and-drop"],
+            "challenge": "Add form filling support",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 138,
+            "title": "Elderly Companion App",
+            "description": "Create an app with medication reminders, emergency contacts, and daily check-ins.",
+            "difficulty": "Intermediate",
+            "field": "Mobile Development",
+            "tech": ["React Native", "Firebase", "Notifications", "Google Maps API"],
+            "challenge": "Add fall detection and SOS",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 139,
+            "title": "Docker Status Dashboard",
+            "description": "Build a dashboard to monitor Docker containers and their status.",
+            "difficulty": "Intermediate",
+            "field": "DevOps",
+            "tech": ["React", "Node.js", "Dockerode", "WebSocket", "Tailwind"],
+            "challenge": "Add container management actions",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 140,
+            "title": "Fantasy Sports Team Builder",
+            "description": "Create a tool to build and manage fantasy sports teams.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "PostgreSQL", "Sports API", "Tailwind"],
+            "challenge": "Add scoring and league management",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 141,
+            "title": "Database GUI Client",
+            "description": "Build a lightweight database GUI client for SQLite/PostgreSQL.",
+            "difficulty": "Intermediate",
+            "field": "Desktop Development",
+            "tech": ["Electron", "TypeScript", "React", "SQL.js", "Tailwind"],
+            "challenge": "Add query autocomplete",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 142,
+            "title": "Adventure Game Engine",
+            "description": "Create a text-based adventure game engine with story branching.",
+            "difficulty": "Intermediate",
+            "field": "Game Development",
+            "tech": ["Python", "JSON", "Twine-like", "Click CLI"],
+            "challenge": "Add multiplayer interactions",
+            "timeEstimate": "7-9 hours"
+        },
+        {
+            "id": 143,
+            "title": "Ticket System Dashboard",
+            "description": "Build a support ticket system with status tracking and assignment.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["Ruby on Rails", "PostgreSQL", "Tailwind", "Hotwire"],
+            "challenge": "Add SLAs and escalation",
+            "timeEstimate": "10-12 hours"
+        },
+        {
+            "id": 144,
+            "title": "Sustainability Tracker",
+            "description": "Create an app to track sustainable actions and their environmental impact.",
+            "difficulty": "Intermediate",
+            "field": "Environmental Tech",
+            "tech": ["React", "Node.js", "MongoDB", "Chart.js", "Tailwind"],
+            "challenge": "Add challenges and rewards",
+            "timeEstimate": "8-10 hours"
+        },
+        {
+            "id": 145,
+            "title": "Log Aggregation Tool",
+            "description": "Build a tool to aggregate and analyze logs from multiple sources.",
+            "difficulty": "Intermediate",
+            "field": "DevOps",
+            "tech": ["Node.js", "Elasticsearch", "Kibana", "Docker", "Winston"],
+            "challenge": "Add alerting and search",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 146,
+            "title": "Meme Generator",
+            "description": "Create a meme generator with templates, text, and export features.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["JavaScript", "Canvas API", "HTML5", "CSS3"],
+            "challenge": "Add custom upload and stickers",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 147,
+            "title": "Remote Team Check-in",
+            "description": "Build a remote team check-in tool with mood tracking and stand-ups.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "Node.js", "PostgreSQL", "Socket.io", "Tailwind"],
+            "challenge": "Add team analytics and integrations",
+            "timeEstimate": "9-11 hours"
+        },
+        {
+            "id": 148,
+            "title": "Package Version Tracker",
+            "description": "Create a tool to track npm/PyPI package versions and update alerts.",
+            "difficulty": "Beginner",
+            "field": "Developer Tools",
+            "tech": ["JavaScript", "Node.js", "npm API", "Express", "EJS"],
+            "challenge": "Add dependency analysis",
+            "timeEstimate": "6-8 hours"
+        },
+        {
+            "id": 149,
+            "title": "Astronomy Picture Viewer",
+            "description": "Build an app to display NASA's Astronomy Picture of the Day with details.",
+            "difficulty": "Beginner",
+            "field": "Frontend Development",
+            "tech": ["React", "NASA APOD API", "Tailwind", "React Router"],
+            "challenge": "Add favorites and archive browsing",
+            "timeEstimate": "5-7 hours"
+        },
+        {
+            "id": 150,
+            "title": "Low Code Form Builder",
+            "description": "Create a drag-and-drop form builder with validation and export.",
+            "difficulty": "Intermediate",
+            "field": "Full Stack",
+            "tech": ["React", "DnD Kit", "Node.js", "PostgreSQL", "Tailwind"],
+            "challenge": "Add form sharing and submissions",
+            "timeEstimate": "10-12 hours"
+        }
+    ]
+}
