@@ -1,13 +1,11 @@
-"use client";
+"use client"
 
-import { useMDXComponent } from "next-contentlayer2/hooks";
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable react-hooks/refs */
 
-interface MdxRendererProps {
-  code: string;
-}
+import { useMDXComponent } from "next-contentlayer2/hooks"
 
-export function MdxRenderer({ code }: MdxRendererProps) {
-  const Component = useMDXComponent(code);
-  
-  return <Component />;
+export function MdxRenderer({ code }: { code: string }) {
+  const Component = useMDXComponent(code)
+  return <Component />
 }

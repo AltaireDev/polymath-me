@@ -5,27 +5,15 @@ import { motion } from 'framer-motion'
 import { allArticles, allProjects } from 'contentlayer/generated'
 
 export function Analytics() {
-  const [stats, setStats] = useState({
-    articles: 0,
-    projects: 0,
-    totalWords: 0,
-    readingTime: 0,
-  })
+  const articles = allArticles.length
 
-  useEffect(() => {
-    const articles = allArticles.length
-    const projects = allProjects.length
-    
-    let totalWords = 0
-    allArticles.forEach(article => {
-      const body = article.body?.raw || ''
-      totalWords += body.split(/\s+/).length
-    })
-    
-    const readingTime = Math.round(totalWords / 200)
+  let totalWords = 0
+  for (const article of allArticles) {
+    const body = article.body?.raw || ''
+    totalWords += body.trim() ? body.trim().split(/\s+/).length : 0
+  }
 
-    setStats({ articles, projects, totalWords, readingTime })
-  }, [])
+  const readingTime = Math.round(totalWords / 200)
 
   return (
     <motion.div
@@ -36,7 +24,7 @@ export function Analytics() {
     >
       <div className="mt-4 flex items-center justify-between text-xs text-gray-600">
         <div className="flex items-center gap-4">
-          <span>📝 {stats.totalWords.toLocaleString()} words written</span>
+          <span>📝 {totalWords.toLocaleString()} words written</span>
           <span>🚀 {new Date().getFullYear() - 2024}+ years coding</span>
         </div>
         <div className="flex items-center gap-2">

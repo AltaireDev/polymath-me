@@ -1,21 +1,24 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiRefreshCw, FiClock, FiStar, FiCode } from 'react-icons/fi'
 import ideasData from '@/content/project-ideas.json'
 
 export default function Ideas() {
-  const [currentIdea, setCurrentIdea] = useState<any>(null)
   const [isRandom, setIsRandom] = useState(false)
 
-  useEffect(() => {
-    // Get today's idea based on date
-    const today = new Date()
-    const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000)
-    const ideaIndex = dayOfYear % ideasData.ideas.length
-    setCurrentIdea(ideasData.ideas[ideaIndex])
+  const todayIdeaIndex = useMemo(() => {
+  const today = new Date()
+  const dayOfYear = Math.floor(
+      (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000
+    )
+    return dayOfYear % ideasData.ideas.length
   }, [])
+
+  const [currentIdea, setCurrentIdea] = useState(
+    ideasData.ideas[todayIdeaIndex]
+  )
 
   const getRandomIdea = () => {
     const randomIndex = Math.floor(Math.random() * ideasData.ideas.length)
